@@ -1,24 +1,28 @@
 {
-    "manifest_version": 2,
-    "author": "Amir Aliu",
-    "name": "Kosovo Flag Fixer for Steam",
-    "version": "1.0",
-    "description": "A simple extension that fixes the missing Kosovo flag on steamcommunity profile. Thanks for doing nothing over a simple 10 second flag addition Valve.",
-  
-    "icons": {
-        "48": "images/kosovo-flag-icon.png"
-    },
-  
-    "permissions": ["activeTab", "storage"],
+  "manifest_version": 2,
+  "author": "Amir Aliu",
+  "name": "Kosovo Flag Fixer for Steam",
+  "version": "1.2.0",
+  "description": "A simple extension that fixes the missing Kosovo flag on steamcommunity profile.",
 
-    "browser_action": {
-        "default_popup": "popup.html"
-    },
+  "icons": {
+    "48": "images/kosovo-flag-icon.png"
+  },
 
-    "content_scripts": [
-      {
-        "matches": ["*://*.steamcommunity.com/id/*"],
-        "js": ["script.js"]
-      }
-    ]
+  "permissions": ["activeTab", "storage"],
+
+  "browser_action": {
+      "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.steamcommunity.com/id/*",
+        "*://*.steamcommunity.com/profiles/*",
+        "*://*.steamcommunity.com/groups/*"
+      ],
+      "js": ["script.js"]
+    }
+  ]
 }
