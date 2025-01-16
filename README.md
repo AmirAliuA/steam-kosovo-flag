@@ -12,5 +12,6 @@ Learn more about the background of this project on my blog: [Fixing the Kosovo F
 - **Firefox**: [Get it on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/kosovo-flag-fixer-for-steam/)  
 - **Chrome**: I’m not paying $5 to upload MY OWN work to a massive corporation. Download the [source code](https://github.com/AmirAliuA/steam-kosovo-flag/releases) and install it locally.
 
-## Result after Installing Extension
+## 🖼️ What It Looks Like
+Here’s the result after installing the extension: 
 <img src="https://raw.githubusercontent.com/AmirAliuA/steam-kosovo-flag/main/result.png">
