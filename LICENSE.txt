@@ -1,0 +1,14 @@
+Copyright (c) 2025 Amir Aliu
+
+All rights reserved.
+
+This code is provided for personal use only.
+
+You are NOT allowed to:
+- Use this code for commercial purposes.
+- Copy, redistribute, or modify this code.
+- Upload or mirror this code elsewhere.
+
+No permission is granted to use, copy, modify, or distribute this software except as expressly set forth herein.
+
+All rights reserved by the author.

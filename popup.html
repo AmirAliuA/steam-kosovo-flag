@@ -1,24 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kosovo Flag Fixer for Steam</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A simple browser extension that fixes the missing Kosovo flag on Steam profiles." />
+  <meta name="author" content="Amir Aliu" />
+
+  <title>Kosovo Flag Fixer</title>
   <style>
-    body 
-    {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background-color: #f9f9f9;
+      color: #333;
+      width: 240px;
     }
 
-    a 
-    {
+    h1 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    h1 img {
+      width: 24px;
+      height: 16px;
+      object-fit: contain;
+    }
+
+    a {
       display: block;
+      background-color: #0078D4;
+      color: white;
+      padding: 10px 12px;
       margin-bottom: 10px;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+    }
+
+    a:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 11px;
+      margin-top: 10px;
+      color: #888;
     }
   </style>
 </head>
-
 <body>
-  <a href="https://amiraliu.vercel.app/projects/steam-kosovo-flag-fixer" id="blog-post">Blog Post</a>
-  <a href="https://github.com/AmirAliuA/steam-kosovo-flag" id="source-code">Source Code</a>
+  <h1>
+    <img src="images/kosovo-flag-16x11.png" alt="Kosovo Flag" />
+    Kosovo Flag Fixer
+  </h1>
+  <a href="https://amiraliu.vercel.app/projects/steam-kosovo-flag-fixer" target="_blank" id="blog-post">Read Blog Post</a>
+  <a href="https://github.com/AmirAliuA/steam-kosovo-flag" target="_blank" id="source-code">View Source Code</a>
+  <footer>
+    <a href="https://amiraliu.vercel.app" target="_blank" rel="noopener noreferrer">Made by Amir Aliu</a>
+  </footer>
 </body>
 </html>

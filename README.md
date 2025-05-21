@@ -12,5 +12,35 @@ https://amiraliu.vercel.app/blog/steam-browser-extension
 Firefox Browser: https://addons.mozilla.org/en-US/firefox/addon/kosovo-flag-fixer-for-steam/\
 Chrome Browser: I’m not paying $5 to upload MY OWN work to a conglomerate. Download the source code and install it locally.
 
+## How to Install the Extension Locally
+Since the Chrome Web Store requires a fee to publish, you can install this extension manually in your browser by following these steps:
+
+### For Google Chrome
+1. Download or clone the extension source code to your computer.  
+2. Open Chrome and go to:  
+   `chrome://extensions/`  
+3. Enable **Developer mode** (toggle switch in the top right corner).  
+4. Click **Load unpacked**.  
+5. Select the folder where you saved the extension source code.  
+6. The extension will load and appear in your extension list.  
+
+### For Microsoft Edge
+1. Download or clone the extension source code to your computer.  
+2. Open Edge and go to:  
+   `edge://extensions/`  
+3. Enable **Developer mode** (toggle switch in the bottom left corner).  
+4. Click **Load unpacked**.  
+5. Select the folder where you saved the extension source code.  
+6. The extension will load and appear in your extension list.
+
+---
+
+## License Terms
+- You are **NOT** allowed to use this code for commercial purposes.  
+- You are **NOT** allowed to copy, redistribute, or modify this code.  
+- You are **NOT** allowed to upload or mirror this code elsewhere.  
+- This code is provided for **personal use only**.  
+- All rights reserved by the author.
+
 # Result after Installing Extension
 <img src="https://raw.githubusercontent.com/AmirAliuA/steam-kosovo-flag/main/result.png">
